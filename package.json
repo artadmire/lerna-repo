@@ -6,7 +6,8 @@
   ],
   "scripts": {
     "commit": "git-cz",
-    "clear-all": "rimraf node_modules && lerna clean -y"
+    "clear-all": "rimraf node_modules && lerna clean -y",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
@@ -14,8 +15,11 @@
     }
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
     "lerna": "^5.0.0"
   }
 }
