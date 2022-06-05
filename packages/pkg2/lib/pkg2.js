@@ -1,13 +1,11 @@
-'use strict'
-const pkg1 = require('pkg1')
+'use strict';
+const pkg1 = require('pkg1');
 
-module.exports = pkg2
+module.exports = pkg2;
 
-pkg1()
-function pkg2()  {
-
+pkg1();
+function pkg2() {
   // TODO
-  console.log('pkg2')
-
+  console.log('pkg2');
 
 }

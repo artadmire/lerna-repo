@@ -62,7 +62,7 @@ module.exports = {
       'avoidEscape': true
     }],
 
-    'semi': ['error', 'never'],
+    'semi': ['error', 'always'],
 
     'space-before-blocks': ['error', 'always'],
 
@@ -100,6 +100,10 @@ module.exports = {
 
     'no-new-symbol': ['error'],
 
+    'no-multiple-empty-lines': [2, { //空行最多不能超过1行
+      'max': 1
+    }],
+
     'no-useless-rename': ['error'],
 
     'no-var': ['error'],
@@ -122,4 +126,4 @@ module.exports = {
 
     'template-curly-spacing': ['error', 'never']
   }
-}
+};
