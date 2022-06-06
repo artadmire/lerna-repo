@@ -1,7 +1,8 @@
 'use strict';
 
-const pkg1 = require('..');
+const pkg1 = require('../lib/pkg1.js');
 
-describe('pkg1', () => {
-    it('needs tests');
+test('adds 1 + 2 to equal 3', () => {
+  expect(pkg1(1, 2)).toBe(3);
+
 });

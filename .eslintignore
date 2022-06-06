@@ -1,0 +1,4 @@
+build
+config/*.js
+packages/**/__tests__/*.test.js
+static/dist
